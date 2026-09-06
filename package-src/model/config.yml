@@ -1,0 +1,58 @@
+package_name: hotel_cancellation_model
+pipeline_save_file: hotel_cancellation_model_output
+target: is_canceled
+test_size: 0.2
+random_state: 42
+
+# Critical: Exclude leakages and IDs
+drop_features:
+  - booking_id
+  - cancellation_fee_charged
+
+date_features:
+  - arrival_date
+  - booking_date
+
+numerical_features:
+  - lead_time
+  - avg_daily_rate
+  - stays_weekend
+  - stays_weekday
+  - adults
+  - children
+  - babies
+  - previous_cancellations
+  - previous_bookings_not_canceled
+  - special_requests
+  - parking_spaces
+
+categorical_features:
+  - country
+  - market_segment
+  - room_type
+  - deposit_type
+  - agent_id
+  - meal_plan
+  - is_repeated_guest
+
+selected_model: "xgboost"
+
+model_params:
+  xgboost:
+    n_estimators: 200
+    learning_rate: 0.05
+    max_depth: 6
+    subsample: 0.8
+    colsample_bytree: 0.8
+    eval_metric: "logloss"
+    random_state: 42
+  lightgbm:
+    n_estimators: 200
+    learning_rate: 0.05
+    max_depth: 6
+    num_leaves: 31
+    random_state: 42
+  logistic_regression:
+    C: 1.0
+    max_iter: 1000
+    random_state: 42

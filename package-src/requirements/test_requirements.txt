@@ -1,0 +1,4 @@
+-r requirements.txt
+
+# testing requirements
+pytest>=9.1.1,<10.0.0
