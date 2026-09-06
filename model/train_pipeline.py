@@ -177,11 +177,15 @@ def run_experiment(model_name: str, mode: str, config: dict, X, y, mlflow, out_d
         cm_path.write_text(json.dumps({"threshold": thr, "matrix": cm.tolist()}, indent=2))
         mlflow.log_artifact(str(cm_path), artifact_path="diagnostics")
 
-        # Modelo final entrenado con todos los datos
+        # Modelo final entrenado con todos los datos.
+        # Se registra con log_model (no con log_artifact) para que MLflow lo
+        # reconozca como modelo: guarda la firma de entrada/salida y las
+        # dependencias, aparece en la columna "Models" de la interfaz y queda
+        # listo para el Model Registry y para servirlo como API.
         pipe.fit(X, y)
         model_path = out_dir / f"{run_name}.joblib"
-        joblib.dump(pipe, model_path)
-        mlflow.log_artifact(str(model_path), artifact_path="model")
+        joblib.dump(pipe, model_path)  # copia local para el tablero
+        _log_model(mlflow, pipe, X.head(5))
 
         importances = _feature_importances(pipe)
         if importances is not None:
@@ -198,6 +202,33 @@ def run_experiment(model_name: str, mode: str, config: dict, X, y, mlflow, out_d
         )
 
     return {"model": model_name, "mode": mode, **summary}
+
+
+
+def _log_model(mlflow, pipe, input_example) -> None:
+    """Registra el pipeline como modelo de MLflow.
+
+    El nombre del parametro cambio entre MLflow 2.x (artifact_path) y 3.x
+    (name), asi que se intentan los dos. Si el registro falla (por ejemplo
+    porque el servidor no acepta artefactos), se avisa y se sigue: perder el
+    modelo no debe tumbar el experimento.
+    """
+    import mlflow.sklearn
+
+    # cloudpickle en vez del formato por defecto: el pipeline incluye
+    # transformadores propios (model/preprocessing.py) que el serializador
+    # nuevo de MLflow rechaza por venir de codigo del proyecto.
+    kwargs = {
+        "input_example": input_example,
+        "serialization_format": mlflow.sklearn.SERIALIZATION_FORMAT_CLOUDPICKLE,
+    }
+    try:
+        try:
+            mlflow.sklearn.log_model(pipe, name="model", **kwargs)
+        except TypeError:
+            mlflow.sklearn.log_model(pipe, artifact_path="model", **kwargs)
+    except Exception as exc:  # noqa: BLE001
+        print(f"  [aviso] No se pudo registrar el modelo en MLflow: {exc}", file=sys.stderr)
 
 
 def _loggable(value) -> bool:
