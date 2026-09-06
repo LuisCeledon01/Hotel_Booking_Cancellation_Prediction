@@ -7,3 +7,4 @@ mlruns/
 mlartifacts/
 mlflow_local.db
 model/trained_models/*.joblib
+reports/*.md
