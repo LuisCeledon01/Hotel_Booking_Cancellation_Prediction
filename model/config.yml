@@ -1,0 +1,49 @@
+# Configuracion del pipeline de modelado - Microproyecto MAIA
+# Prediccion de cancelacion de reservas hoteleras
+
+data:
+  train_path: data/train.csv
+  test_path: data/test.csv
+  target: is_canceled
+  id_column: booking_id
+
+# Columnas que NUNCA entran al modelo.
+# cancellation_fee_charged se cobra DESPUES de que el cliente cancela:
+# conocerla en el momento de la prediccion es imposible. En el EDA de la
+# Entrega 1 se midio que por si sola clasifica con ~95% de accuracy
+# (92% de cancelacion cuando vale 1 vs 2.9% cuando vale 0). Es fuga de
+# informacion (target leakage), no una senal predictiva.
+leakage_columns:
+  - cancellation_fee_charged
+
+categorical_features:
+  - meal_plan
+  - market_segment
+  - room_type
+  - deposit_type
+  - country
+  - agent_id
+
+# country (54 niveles) y agent_id (50 niveles) tienen categorias con muy
+# pocas observaciones. Se agrupan en "RARE" antes del one-hot para evitar
+# columnas casi vacias que el modelo puede sobreajustar.
+rare_threshold: 0.01
+
+# El EDA detecto 214 filas (~2%) con avg_daily_rate entre 900 y 1500,
+# fuera del rango del resto. Se recorta al percentil indicado en lugar de
+# eliminar filas, para no perder observaciones.
+adr_clip_quantile: 0.99
+
+cv:
+  n_splits: 5
+  shuffle: true
+  random_state: 42
+
+mlflow:
+  experiment_name: hotel_booking_cancellation
+  # Se sobreescribe con la variable de entorno MLFLOW_TRACKING_URI.
+  # Si el servidor de EC2 no responde, cae a un almacen local ./mlruns.
+  tracking_uri: http://ec2-32-195-106-158.compute-1.amazonaws.com:8050
+  fallback_uri: sqlite:///mlflow_local.db
+
+output_dir: model/trained_models
