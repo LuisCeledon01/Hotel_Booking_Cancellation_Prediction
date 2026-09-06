@@ -1,2 +1,9 @@
 .venv/
 .vscode/
+__pycache__/
+*.pyc
+.pytest_cache/
+mlruns/
+mlartifacts/
+mlflow_local.db
+model/trained_models/*.joblib
