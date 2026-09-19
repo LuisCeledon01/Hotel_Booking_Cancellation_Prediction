@@ -1,0 +1,12 @@
+[server]
+headless = true
+enableXsrfProtection = true
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#106b57"
