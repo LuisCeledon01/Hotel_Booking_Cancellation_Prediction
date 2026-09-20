@@ -1,0 +1,201 @@
+booking_id,booking_date,arrival_date,lead_time,stays_weekend,stays_weekday,adults,children,babies,meal_plan,country,market_segment,room_type,deposit_type,agent_id,is_repeated_guest,previous_cancellations,previous_bookings_not_canceled,special_requests,avg_daily_rate,parking_spaces
+57,2023-02-17,2023-04-28,70,1,2,3,1.0,0,Half Board,SAU,Online,Standard,No Deposit,8,0,0.0,4,3,89.13,1
+1556,2022-06-07,2022-08-03,57,1,2,2,2.0,0,Half Board,RUS,Online,Standard,Non Refund,22,1,2.0,1,0,43.95,0
+4891,2023-05-02,2023-05-04,2,3,2,3,1.0,0,Self Catering,EST,Online,Standard,No Deposit,39,0,,2,2,111.31,0
+2572,2023-08-17,2023-09-17,31,2,1,1,0.0,0,Half Board,ESP,Aviation,Deluxe,Non Refund,50,0,,1,1,55.26,0
+7975,2023-04-21,2023-07-22,92,1,1,2,0.0,0,Bed & Breakfast,DEU,Offline,Standard,Non Refund,13,0,0.0,0,3,96.92,0
+7555,2022-08-20,2022-12-28,130,2,3,3,0.0,0,Bed & Breakfast,CZE,Corporate,Suite,Non Refund,27,0,,0,2,1355.27,0
+494,2023-05-23,2023-05-25,2,3,2,2,0.0,1,Half Board,THA,Online,Standard,No Deposit,30,0,0.0,0,1,88.48,0
+7138,2023-01-10,2023-05-16,126,3,2,3,0.0,0,Full Board,POL,Corporate,Deluxe,Refundable,44,0,1.0,0,1,75.37,1
+3695,2023-12-25,2024-02-05,42,2,5,1,1.0,0,Bed & Breakfast,FIN,Online,Suite,No Deposit,30,0,3.0,0,1,46.18,0
+10231,2022-12-24,2023-01-07,14,0,3,1,0.0,0,Self Catering,ISR,Offline,Standard,Refundable,25,0,0.0,0,3,48.47,1
+8553,2022-10-12,2023-06-22,253,2,3,4,0.0,1,Half Board,CHN,Offline,Deluxe,Non Refund,38,0,0.0,2,1,51.52,0
+3053,2023-06-12,2024-02-04,237,1,2,1,2.0,0,Half Board,USA,Groups,Standard,No Deposit,11,0,0.0,5,2,26.49,0
+3789,2022-07-02,2023-01-05,187,1,2,2,0.0,0,Bed & Breakfast,AUT,Corporate,Standard,Refundable,37,0,,2,2,59.88,2
+10465,2022-01-30,2022-02-20,21,2,3,3,1.0,0,Bed & Breakfast,BRA,Online,Standard,Refundable,8,0,0.0,1,2,52.15,0
+7527,2023-12-09,2024-05-10,153,1,5,1,0.0,0,Bed & Breakfast,SGP,Corporate,Deluxe,No Deposit,32,0,0.0,1,2,94.1,0
+11756,2022-09-14,2022-09-15,1,4,2,1,3.0,0,Half Board,HUN,Groups,Standard,Non Refund,6,0,0.0,2,1,39.4,1
+4646,2023-09-24,2024-03-18,176,2,4,1,1.0,0,Bed & Breakfast,LVA,Online,Standard,Refundable,27,0,0.0,1,0,93.36,2
+2635,2022-09-01,2023-03-13,193,1,4,3,0.0,0,Bed & Breakfast,CHE,Online,Deluxe,Non Refund,16,0,0.0,0,1,116.14,0
+971,2022-01-19,2022-04-18,89,1,3,1,0.0,0,Half Board,PRT,Groups,Standard,No Deposit,17,0,0.0,3,3,98.38,0
+3776,2023-01-30,2023-03-01,30,2,4,2,0.0,0,Full Board,THA,Online,Standard,No Deposit,18,0,,2,2,87.51,0
+4426,2022-09-01,2022-10-27,56,0,4,1,1.0,0,Bed & Breakfast,SVK,Online,Deluxe,No Deposit,20,0,,2,2,49.16,0
+8565,2023-04-26,2023-06-17,52,1,3,1,2.0,0,Full Board,GBR,Corporate,Standard,Non Refund,22,0,,2,2,63.88,1
+4496,2023-12-06,2024-04-15,131,0,3,2,0.0,1,Half Board,SWE,Groups,Standard,No Deposit,46,1,2.0,1,1,60.09,2
+11168,2023-02-24,2023-02-27,3,2,2,2,0.0,0,Bed & Breakfast,CHN,Online,Standard,No Deposit,19,0,0.0,3,0,67.04,2
+9795,2022-01-04,2022-02-24,51,1,3,2,,1,Full Board,NLD,Online,Standard,Refundable,11,0,1.0,2,0,78.97,0
+420,2023-08-27,2023-12-24,119,0,5,4,0.0,0,Bed & Breakfast,SVN,Groups,Deluxe,No Deposit,12,1,0.0,3,0,117.66,1
+9256,2023-01-18,2023-04-30,102,0,3,2,1.0,0,Half Board,ISR,Corporate,Suite,No Deposit,3,0,0.0,1,3,38.87,0
+3667,2023-11-16,2024-01-24,69,2,0,1,0.0,0,Full Board,NLD,Online,Suite,Refundable,40,0,1.0,3,2,101.79,0
+10692,2022-08-16,2022-11-22,98,3,3,2,3.0,0,Bed & Breakfast,MEX,Groups,Standard,No Deposit,13,0,0.0,2,2,39.99,0
+7533,2023-01-19,2023-04-17,88,3,2,1,0.0,0,Half Board,POL,Online,Suite,Non Refund,1,0,2.0,2,1,56.68,0
+4494,2022-07-07,2022-08-02,26,1,3,2,2.0,2,Bed & Breakfast,THA,Corporate,Deluxe,No Deposit,46,0,,2,0,51.1,0
+11054,2023-11-27,2023-12-04,7,0,3,3,1.0,0,Half Board,BGR,Offline,Standard,No Deposit,29,0,2.0,1,1,109.27,0
+3487,2022-08-26,2022-10-19,54,1,2,3,0.0,0,Half Board,IRL,Corporate,Suite,No Deposit,33,0,0.0,1,0,83.8,0
+8668,2022-10-03,2023-02-01,121,3,3,2,0.0,1,Bed & Breakfast,SVN,Online,Standard,Non Refund,49,0,,3,1,63.17,1
+5278,2022-04-28,2022-06-16,49,1,5,1,1.0,0,Half Board,RUS,Groups,Standard,No Deposit,20,0,4.0,0,1,208.07,1
+5849,2022-04-06,2022-09-18,165,2,2,1,0.0,0,Half Board,SWE,Groups,Standard,No Deposit,35,0,1.0,1,5,96.52,0
+2747,2022-07-13,2022-07-22,9,0,2,2,3.0,0,Full Board,GBR,Groups,Standard,No Deposit,18,0,3.0,3,2,72.59,0
+11128,2022-12-02,2022-12-19,17,0,2,2,1.0,0,Bed & Breakfast,ARE,Online,Standard,No Deposit,31,1,1.0,2,1,59.67,0
+737,2022-11-03,2023-01-09,67,3,4,1,0.0,0,Half Board,USA,Corporate,Standard,No Deposit,28,0,,2,2,82.96,0
+1559,2022-09-18,2022-10-03,15,1,3,1,0.0,0,Full Board,BEL,Online,Suite,No Deposit,15,0,1.0,2,1,31.95,0
+7221,2023-01-07,2023-02-17,41,1,2,2,1.0,0,Self Catering,THA,Online,Suite,No Deposit,36,1,0.0,3,2,57.43,0
+2821,2022-06-13,2022-08-22,70,2,6,1,1.0,0,Half Board,PHL,Offline,Suite,No Deposit,38,0,0.0,0,1,71.99,1
+9806,2022-05-14,2022-05-27,13,3,4,2,2.0,0,Bed & Breakfast,ITA,Online,Deluxe,No Deposit,27,0,0.0,2,0,39.04,0
+6455,2022-03-17,2022-06-08,83,2,2,2,1.0,0,Bed & Breakfast,USA,Groups,Suite,No Deposit,2,0,2.0,1,4,42.07,0
+3534,2023-04-26,2023-07-07,72,2,3,2,1.0,0,Half Board,CHE,Online,Deluxe,No Deposit,8,1,1.0,0,0,66.49,0
+9372,2022-01-01,2022-03-24,82,1,2,1,0.0,0,Bed & Breakfast,BEL,Online,Standard,Non Refund,4,0,0.0,3,1,84.91,1
+5685,2022-02-28,2022-08-17,170,1,2,2,1.0,0,Self Catering,EST,Offline,Deluxe,Non Refund,16,0,,4,0,51.79,0
+7099,2023-12-13,2024-02-04,53,4,2,4,1.0,0,Full Board,POL,Online,Deluxe,No Deposit,40,0,0.0,1,2,119.45,1
+11377,2022-12-22,2023-01-01,10,2,1,1,1.0,0,Bed & Breakfast,FRA,Offline,Deluxe,No Deposit,17,0,1.0,0,0,93.97,2
+11223,2023-10-20,2023-11-06,17,0,2,3,0.0,0,Bed & Breakfast,FRA,Online,Standard,No Deposit,19,0,0.0,4,0,108.71,0
+1157,2022-11-18,2024-03-27,495,2,3,3,2.0,0,Full Board,USA,Aviation,Deluxe,No Deposit,27,0,0.0,3,5,41.15,0
+2799,2023-06-30,2023-10-05,97,0,1,2,1.0,0,Bed & Breakfast,RUS,Online,Standard,Non Refund,35,0,0.0,5,4,49.36,0
+7651,2023-04-04,2023-04-30,26,0,4,1,1.0,0,Half Board,KOR,Online,Suite,No Deposit,33,0,0.0,3,0,65.03,0
+5716,2022-05-31,2022-06-17,17,0,3,3,0.0,2,Half Board,USA,Groups,Deluxe,No Deposit,38,0,0.0,2,1,48.18,0
+6523,2022-10-27,2023-02-21,117,2,2,1,0.0,0,Self Catering,DEU,Online,Deluxe,Refundable,43,0,0.0,3,0,41.3,0
+3922,2022-08-03,2022-08-21,18,0,0,1,0.0,1,Self Catering,ZAF,Offline,Standard,No Deposit,19,0,0.0,3,2,46.37,1
+8256,2022-05-29,2022-06-30,32,0,5,2,0.0,0,Half Board,TUR,Offline,Deluxe,No Deposit,25,0,0.0,0,1,38.56,2
+6024,2023-09-22,2023-09-22,0,2,2,2,0.0,0,Half Board,LVA,Online,Standard,Refundable,5,0,1.0,0,2,182.18,1
+1906,2022-12-24,2023-01-31,38,1,2,3,3.0,0,Bed & Breakfast,ARG,Offline,Suite,No Deposit,25,0,2.0,2,1,70.31,0
+3669,2023-02-12,2023-03-09,25,0,3,2,0.0,0,Half Board,ZAF,Offline,Standard,No Deposit,17,0,3.0,2,2,66.9,0
+11296,2023-08-15,2023-09-06,22,2,0,2,0.0,1,Half Board,AUT,Online,Standard,No Deposit,1,0,1.0,0,3,122.84,1
+7433,2022-12-30,2023-03-18,78,0,4,2,0.0,1,Bed & Breakfast,FRA,Corporate,Standard,Non Refund,34,0,0.0,0,3,68.28,0
+5904,2022-03-24,2022-11-18,239,1,3,4,1.0,2,Self Catering,CHN,Offline,Deluxe,No Deposit,17,1,0.0,3,1,81.58,0
+9247,2023-07-15,2023-09-23,70,1,4,2,0.0,1,Full Board,COL,Online,Suite,Non Refund,27,0,0.0,2,2,47.84,2
+11089,2023-07-19,2023-11-01,105,2,6,2,3.0,0,Self Catering,AUT,Groups,Standard,No Deposit,42,0,0.0,1,2,68.92,0
+3454,2023-06-24,2023-07-24,30,0,3,2,0.0,0,Self Catering,DEU,Offline,Suite,No Deposit,11,0,0.0,4,1,59.68,1
+3359,2022-11-05,2023-07-04,241,0,3,3,0.0,1,Half Board,THA,Groups,Suite,No Deposit,48,1,0.0,3,0,141.11,1
+7126,2023-08-25,2023-09-14,20,0,2,2,0.0,1,Bed & Breakfast,PRT,Corporate,Deluxe,No Deposit,20,0,1.0,2,2,116.44,0
+6163,2023-07-04,2023-09-26,84,4,6,2,0.0,0,Bed & Breakfast,ITA,Online,Deluxe,No Deposit,26,0,2.0,2,4,30.13,0
+8361,2022-09-21,2022-11-11,51,2,3,2,0.0,0,Bed & Breakfast,BEL,Online,Standard,Non Refund,34,0,1.0,3,2,132.16,0
+8217,2022-08-28,2022-10-07,40,1,1,1,1.0,0,Bed & Breakfast,SVN,Online,Standard,No Deposit,14,0,0.0,2,0,102.8,0
+11047,2023-02-15,2023-06-09,114,2,3,1,0.0,0,Bed & Breakfast,MEX,Corporate,Standard,No Deposit,28,0,0.0,5,2,40.32,0
+11081,2022-03-07,2022-06-09,94,0,0,2,0.0,0,Bed & Breakfast,ROU,Offline,Deluxe,Non Refund,15,0,0.0,3,0,123.79,0
+3836,2022-09-13,2022-09-18,5,2,2,1,0.0,0,Bed & Breakfast,COL,Online,Standard,Non Refund,19,0,0.0,2,2,125.33,1
+7700,2023-07-28,2024-02-04,191,2,4,2,1.0,0,Half Board,RUS,Online,Suite,No Deposit,30,0,2.0,2,3,145.0,2
+8245,2022-03-23,2022-03-24,1,1,4,2,1.0,0,Half Board,ITA,Groups,Standard,Non Refund,19,0,0.0,2,5,58.42,0
+9394,2022-11-06,2022-12-23,47,2,2,3,1.0,0,Half Board,USA,Online,Standard,Non Refund,30,0,0.0,2,1,99.89,0
+3720,2023-03-11,2023-06-15,96,0,1,2,1.0,0,Half Board,USA,Offline,Suite,No Deposit,1,0,4.0,2,0,41.23,0
+7987,2022-12-05,2023-03-06,91,1,3,2,0.0,0,Full Board,TUR,Groups,Standard,No Deposit,48,0,0.0,0,0,87.8,1
+3600,2022-08-14,2022-09-21,38,0,1,1,0.0,0,Full Board,GBR,Online,Deluxe,No Deposit,12,0,3.0,0,0,71.15,1
+8230,2022-01-31,2022-07-26,176,2,4,2,1.0,0,Half Board,RUS,Online,Standard,No Deposit,21,0,0.0,4,1,61.91,0
+8695,2022-12-13,2023-02-04,53,0,2,2,1.0,0,Bed & Breakfast,USA,Corporate,Standard,Refundable,16,0,4.0,1,0,105.34,0
+2467,2022-01-25,2022-02-23,29,0,5,3,0.0,0,Self Catering,SGP,Groups,Standard,No Deposit,39,1,0.0,2,0,159.05,0
+9146,2022-10-02,2023-01-08,98,2,0,1,,0,Bed & Breakfast,ESP,Online,Deluxe,No Deposit,29,0,,1,3,82.86,2
+10316,2022-01-18,2022-01-31,13,1,4,4,0.0,0,Self Catering,AUS,Offline,Standard,No Deposit,18,1,0.0,4,0,65.17,1
+6074,2023-10-15,2023-12-20,66,1,2,3,1.0,1,Half Board,FIN,Corporate,Standard,No Deposit,13,0,3.0,0,0,85.55,0
+1732,2022-07-19,2022-12-29,163,2,2,4,0.0,2,Half Board,ESP,Offline,Standard,No Deposit,37,0,,1,2,87.91,1
+7034,2023-12-05,2023-12-31,26,1,3,3,2.0,0,Bed & Breakfast,USA,Corporate,Deluxe,No Deposit,45,0,0.0,1,3,60.48,0
+9108,2023-08-31,2023-09-19,19,0,3,3,1.0,0,Full Board,PRT,Groups,Deluxe,No Deposit,5,0,,2,5,63.01,0
+1012,2023-04-11,2023-05-25,44,0,1,2,0.0,0,Bed & Breakfast,RUS,Online,Suite,No Deposit,24,0,0.0,0,0,72.32,0
+498,2023-07-08,2023-12-10,155,2,1,4,3.0,0,Half Board,SVN,Groups,Standard,No Deposit,16,0,0.0,3,2,87.45,1
+10275,2023-05-26,2023-06-01,6,1,2,2,2.0,1,Bed & Breakfast,DEU,Online,Deluxe,Refundable,36,0,0.0,0,1,101.39,0
+7332,2023-10-31,2024-03-16,137,0,2,2,0.0,0,Full Board,MAR,Corporate,Deluxe,Non Refund,7,0,0.0,2,2,134.29,2
+4127,2023-08-12,2023-10-24,73,4,3,2,,0,Self Catering,MYS,Online,Suite,No Deposit,37,1,0.0,2,1,184.24,2
+2913,2023-10-13,2023-12-16,64,2,0,1,1.0,1,Self Catering,COL,Groups,Standard,No Deposit,27,0,0.0,1,1,58.03,2
+6240,2022-07-28,2022-12-17,142,0,4,2,3.0,0,Self Catering,SVN,Groups,Standard,Non Refund,9,1,0.0,3,4,89.74,0
+1478,2023-02-03,2023-03-03,28,0,7,1,0.0,0,Half Board,USA,Online,Deluxe,No Deposit,47,0,0.0,2,0,86.66,0
+8713,2022-06-29,2022-10-14,107,0,3,3,2.0,0,Self Catering,DEU,Online,Standard,Non Refund,21,0,,2,0,180.33,1
+2331,2022-05-28,2022-06-17,20,0,0,1,0.0,0,Half Board,ZAF,Offline,Standard,No Deposit,37,0,1.0,4,1,53.45,0
+2531,2022-10-31,2022-11-20,20,0,2,3,,0,Bed & Breakfast,POL,Online,Deluxe,No Deposit,47,0,0.0,1,2,101.25,0
+10192,2022-03-05,2022-03-28,23,2,3,1,3.0,0,Self Catering,NLD,Online,Deluxe,Refundable,31,0,1.0,2,0,42.68,1
+10816,2023-08-12,2023-08-30,18,2,3,2,0.0,0,Full Board,MYS,Groups,Suite,No Deposit,14,0,3.0,1,0,187.04,1
+9819,2022-11-19,2023-01-04,46,2,4,2,2.0,0,Self Catering,THA,Online,Standard,Non Refund,9,0,0.0,0,2,116.91,0
+3930,2022-12-05,2023-02-23,80,0,3,1,0.0,0,Half Board,ESP,Aviation,Standard,No Deposit,7,0,2.0,1,1,32.6,0
+5851,2023-10-19,2024-04-02,166,1,4,1,0.0,0,Bed & Breakfast,IND,Corporate,Deluxe,No Deposit,40,0,3.0,1,0,118.71,1
+3385,2023-01-05,2023-01-12,7,0,2,2,0.0,0,Full Board,ITA,Corporate,Suite,No Deposit,3,0,1.0,1,2,96.98,1
+1984,2022-02-24,2022-05-12,77,2,2,2,0.0,2,Bed & Breakfast,NLD,Groups,Deluxe,No Deposit,13,0,,4,0,158.61,0
+5612,2022-04-13,2022-04-26,13,0,3,2,0.0,0,Self Catering,ESP,Offline,Standard,No Deposit,21,1,0.0,1,1,97.91,0
+8429,2023-01-27,2023-04-28,91,3,5,2,0.0,1,Bed & Breakfast,USA,Aviation,Standard,No Deposit,50,0,,0,2,227.61,0
+1041,2022-11-08,2022-12-09,31,1,2,2,0.0,0,Full Board,CHL,Offline,Standard,No Deposit,26,0,2.0,1,0,61.1,1
+3544,2023-03-06,2023-11-03,242,1,3,2,0.0,1,Half Board,BEL,Groups,Deluxe,No Deposit,26,0,0.0,1,2,43.26,0
+370,2023-08-22,2023-10-28,67,1,3,1,3.0,1,Bed & Breakfast,CHE,Online,Deluxe,No Deposit,31,0,,0,2,66.12,0
+10470,2022-10-03,2022-10-16,13,0,2,3,1.0,0,Bed & Breakfast,POL,Online,Standard,No Deposit,20,0,0.0,1,1,27.25,1
+7476,2023-08-11,2023-08-22,11,0,3,3,1.0,2,Bed & Breakfast,PER,Corporate,Deluxe,No Deposit,37,0,0.0,1,2,101.72,0
+3959,2022-05-04,2022-09-06,125,2,2,1,1.0,0,Bed & Breakfast,RUS,Online,Standard,No Deposit,35,0,0.0,0,2,28.06,0
+8880,2022-05-01,2022-05-20,19,1,3,1,2.0,0,Bed & Breakfast,USA,Online,Deluxe,Refundable,4,0,,3,2,103.23,0
+1321,2022-08-02,2023-02-26,208,2,2,1,0.0,0,Bed & Breakfast,ESP,Corporate,Standard,Refundable,29,0,0.0,0,2,137.97,0
+2133,2022-07-01,2022-12-15,167,0,3,2,0.0,0,Half Board,NLD,Groups,Standard,Non Refund,45,0,0.0,2,1,94.23,2
+8208,2022-02-10,2022-02-10,0,1,4,3,1.0,0,Half Board,DEU,Online,Deluxe,No Deposit,31,0,1.0,2,3,73.91,1
+3968,2022-08-11,2022-10-19,69,4,6,2,1.0,0,Bed & Breakfast,LVA,Offline,Suite,Non Refund,19,0,0.0,2,2,83.1,0
+10349,2022-09-01,2023-01-19,140,3,1,2,0.0,0,Half Board,POL,Offline,Standard,No Deposit,34,0,2.0,0,3,46.04,0
+6952,2022-08-07,2022-10-15,69,0,4,2,0.0,1,Half Board,SRB,Offline,Deluxe,Refundable,45,0,0.0,0,0,97.0,0
+10947,2023-10-29,2024-02-26,120,1,2,3,0.0,0,Bed & Breakfast,BRA,Corporate,Deluxe,Non Refund,36,0,1.0,3,2,67.66,0
+1370,2023-11-11,2023-12-06,25,3,1,3,1.0,0,Bed & Breakfast,BEL,Online,Standard,No Deposit,23,1,1.0,0,1,76.78,0
+6286,2023-02-06,2023-06-07,121,2,3,3,3.0,0,Bed & Breakfast,JPN,Online,Standard,Non Refund,28,0,0.0,0,1,29.91,0
+9862,2023-01-21,2023-02-18,28,2,3,1,3.0,0,Self Catering,IND,Online,Standard,No Deposit,43,1,0.0,1,0,58.4,0
+8636,2022-03-16,2022-05-21,66,4,3,2,2.0,0,Full Board,ESP,Aviation,Deluxe,No Deposit,27,0,0.0,2,4,70.89,1
+162,2022-10-26,2022-11-05,10,1,2,1,1.0,0,Bed & Breakfast,ARG,Corporate,Deluxe,No Deposit,15,0,0.0,0,2,112.99,1
+135,2022-01-27,2022-06-05,129,1,4,2,0.0,0,Half Board,CHN,Online,Deluxe,No Deposit,35,0,,0,1,48.62,0
+7972,2023-11-15,2024-01-22,68,1,1,1,1.0,0,Full Board,ITA,Online,Standard,Non Refund,5,1,1.0,3,0,41.82,1
+5164,2023-12-11,2024-04-20,131,0,1,2,0.0,0,Half Board,PRT,Corporate,Deluxe,No Deposit,35,0,2.0,3,0,62.15,0
+8599,2022-07-05,2022-09-22,79,0,2,1,0.0,0,Full Board,CHL,Online,Deluxe,No Deposit,27,0,2.0,2,1,85.79,2
+9419,2022-04-25,2022-05-26,31,0,3,3,1.0,0,Full Board,ITA,Online,Standard,No Deposit,10,0,3.0,0,0,138.54,2
+536,2022-03-23,2022-04-29,37,2,2,3,1.0,2,Half Board,POL,Online,Standard,Non Refund,43,0,2.0,0,2,82.14,0
+7523,2023-04-12,2023-05-30,48,1,1,2,0.0,0,Bed & Breakfast,FRA,Online,Standard,No Deposit,41,0,0.0,4,1,69.66,0
+4399,2022-09-06,2022-11-21,76,0,5,2,0.0,0,Full Board,MEX,Corporate,Standard,No Deposit,24,0,0.0,2,0,73.79,1
+10404,2023-06-04,2023-06-13,9,3,2,1,0.0,0,Bed & Breakfast,AUS,Online,Suite,No Deposit,29,1,0.0,2,1,62.18,0
+3969,2023-05-23,2023-12-01,192,1,1,3,2.0,0,Full Board,POL,Online,Deluxe,Non Refund,38,0,,5,0,75.96,1
+6756,2023-09-21,2023-10-14,23,1,1,3,0.0,0,Bed & Breakfast,KOR,Online,Standard,No Deposit,32,0,0.0,3,1,608.04,0
+1809,2022-01-19,2022-01-31,12,2,1,1,2.0,0,Self Catering,MYS,Online,Deluxe,No Deposit,10,0,,2,3,67.38,0
+10064,2023-08-30,2023-09-01,2,1,3,1,0.0,0,Half Board,ROU,Online,Deluxe,Non Refund,12,1,2.0,0,1,51.99,0
+9420,2022-07-22,2022-08-22,31,2,1,2,1.0,1,Bed & Breakfast,ITA,Corporate,Deluxe,No Deposit,24,0,0.0,1,2,137.8,0
+9225,2022-12-08,2022-12-25,17,1,5,1,0.0,0,Bed & Breakfast,BRA,Online,Suite,No Deposit,24,0,2.0,3,0,74.15,0
+7755,2023-02-23,2023-05-28,94,0,2,2,,1,Half Board,MYS,Online,Suite,Non Refund,27,1,2.0,0,3,68.45,0
+2899,2022-05-15,2022-05-24,9,2,3,1,1.0,0,Bed & Breakfast,FRA,Offline,Deluxe,No Deposit,11,0,2.0,1,1,52.12,1
+1923,2022-07-23,2022-08-05,13,4,4,1,1.0,0,Full Board,SGP,Online,Deluxe,Non Refund,25,0,1.0,2,2,79.97,2
+933,2022-06-25,2022-07-03,8,2,1,2,0.0,0,Self Catering,THA,Offline,Standard,No Deposit,49,0,0.0,2,0,82.06,0
+4106,2023-10-16,2023-12-16,61,1,3,1,0.0,0,Self Catering,AUT,Corporate,Suite,No Deposit,12,0,0.0,4,2,115.63,0
+500,2023-05-18,2023-06-09,22,1,1,2,0.0,0,Full Board,MYS,Online,Deluxe,No Deposit,26,0,4.0,2,1,42.53,0
+9165,2023-12-17,2024-02-15,60,0,4,2,2.0,1,Half Board,RUS,Corporate,Standard,Non Refund,41,0,1.0,2,2,67.43,0
+8048,2022-04-17,2022-09-29,165,1,4,3,3.0,0,Self Catering,HRV,Online,Standard,Non Refund,10,0,,2,0,72.94,0
+6409,2022-07-31,2022-11-01,93,1,1,2,0.0,1,Half Board,NLD,Corporate,Deluxe,No Deposit,14,0,0.0,1,3,30.72,0
+10880,2023-04-06,2023-04-24,18,2,1,1,1.0,0,Self Catering,IRL,Online,Standard,No Deposit,8,0,2.0,0,1,48.95,1
+11215,2023-06-23,2023-10-28,127,0,7,1,1.0,0,Bed & Breakfast,HRV,Online,Standard,Refundable,47,1,2.0,1,2,87.97,0
+4456,2023-08-10,2023-08-30,20,0,5,2,0.0,0,Bed & Breakfast,PRT,Online,Suite,Refundable,1,0,2.0,1,2,58.61,0
+58,2023-05-04,2023-06-27,54,1,3,1,1.0,0,Self Catering,EST,Groups,Deluxe,No Deposit,47,0,0.0,2,0,35.13,0
+6201,2022-10-09,2022-11-05,27,2,1,3,0.0,0,Half Board,KOR,Offline,Suite,No Deposit,5,0,0.0,3,0,82.11,0
+9883,2022-06-21,2022-07-27,36,2,2,2,0.0,0,Bed & Breakfast,JPN,Online,Suite,No Deposit,45,0,0.0,3,0,111.45,0
+9694,2022-01-29,2022-04-24,85,0,1,2,0.0,0,Full Board,ROU,Online,Deluxe,No Deposit,48,0,0.0,2,1,52.95,0
+10751,2023-10-17,2023-11-21,35,0,4,2,0.0,0,Half Board,MYS,Online,Standard,No Deposit,28,1,0.0,2,1,36.56,2
+11390,2023-09-10,2023-11-30,81,0,4,2,0.0,0,Half Board,SGP,Aviation,Standard,No Deposit,50,0,3.0,2,2,52.01,2
+6967,2022-10-23,2023-02-08,108,0,0,2,1.0,0,Half Board,NLD,Online,Standard,No Deposit,45,0,0.0,4,2,62.38,0
+5380,2023-05-21,2023-05-22,1,2,6,2,1.0,0,Half Board,GBR,Offline,Deluxe,No Deposit,29,0,,2,0,104.21,1
+7673,2022-12-12,2023-06-10,180,3,2,4,0.0,0,Bed & Breakfast,PRT,Corporate,Standard,Non Refund,8,0,1.0,2,1,69.68,0
+11598,2022-03-02,2022-03-04,2,0,2,1,0.0,0,Bed & Breakfast,ITA,Corporate,Suite,No Deposit,23,0,2.0,4,2,76.78,0
+1467,2022-12-29,2023-02-05,38,4,3,2,1.0,0,Bed & Breakfast,NOR,Offline,Deluxe,No Deposit,29,0,,2,1,65.18,0
+4355,2023-10-19,2023-12-15,57,1,5,4,1.0,0,Bed & Breakfast,ISR,Groups,Standard,Non Refund,38,0,1.0,2,2,221.05,1
+8462,2023-02-09,2023-05-10,90,0,1,4,,0,Self Catering,NLD,Groups,Standard,Non Refund,38,0,1.0,1,0,276.14,0
+1975,2023-04-20,2023-07-28,99,1,3,2,0.0,0,Bed & Breakfast,SVK,Online,Standard,No Deposit,50,0,0.0,2,2,81.08,0
+919,2023-07-09,2023-08-09,31,1,2,1,1.0,0,Bed & Breakfast,PRT,Corporate,Suite,No Deposit,27,1,0.0,0,4,123.71,2
+6765,2023-09-15,2023-10-24,39,3,2,1,0.0,0,Bed & Breakfast,GBR,Corporate,Standard,No Deposit,7,0,,3,1,115.06,0
+6464,2022-10-10,2022-11-21,42,4,3,2,0.0,1,Bed & Breakfast,EST,Online,Deluxe,No Deposit,23,0,0.0,1,4,212.64,0
+9483,2022-05-24,2022-10-03,132,0,4,1,,0,Bed & Breakfast,AUT,Offline,Standard,Non Refund,45,0,,2,2,56.42,2
+11512,2023-06-09,2023-06-10,1,0,2,2,0.0,0,Bed & Breakfast,RUS,Corporate,Standard,No Deposit,16,0,2.0,4,0,16.99,0
+183,2023-06-30,2023-07-08,8,0,3,3,0.0,1,Bed & Breakfast,DEU,Online,Standard,No Deposit,25,0,4.0,2,3,68.25,0
+11445,2022-09-01,2022-11-01,61,0,1,2,0.0,0,Half Board,NLD,Online,Standard,No Deposit,35,1,3.0,1,1,47.94,0
+4197,2022-06-25,2022-12-26,184,0,1,2,0.0,0,Bed & Breakfast,AUT,Corporate,Deluxe,Refundable,28,0,,2,1,51.19,0
+11625,2022-10-10,2022-11-16,37,1,1,1,0.0,0,Self Catering,ITA,Offline,Suite,No Deposit,14,1,0.0,1,0,67.29,1
+1865,2022-07-01,2022-07-25,24,1,4,2,0.0,0,Bed & Breakfast,USA,Online,Suite,Non Refund,29,1,0.0,2,0,50.77,0
+4109,2022-04-28,2022-05-10,12,0,2,3,0.0,0,Bed & Breakfast,ZAF,Offline,Standard,No Deposit,17,0,0.0,0,4,45.61,0
+1256,2023-07-19,2023-10-13,86,3,4,2,1.0,0,Half Board,ITA,Corporate,Standard,Refundable,2,0,1.0,1,1,90.43,0
+8787,2022-10-05,2022-10-16,11,1,3,4,0.0,0,Half Board,FRA,Online,Standard,No Deposit,39,0,0.0,1,0,96.54,0
+831,2023-03-30,2023-04-26,27,3,3,1,,0,Half Board,JPN,Corporate,Deluxe,No Deposit,44,0,4.0,2,0,68.0,0
+4931,2022-02-27,2023-06-04,462,0,3,1,2.0,0,Full Board,EST,Online,Deluxe,No Deposit,48,0,1.0,0,2,68.99,0
+6463,2023-05-07,2023-05-12,5,3,5,2,0.0,0,Bed & Breakfast,ARG,Online,Standard,No Deposit,44,0,,1,1,101.08,0
+2398,2022-10-31,2023-04-17,168,0,3,2,0.0,0,Half Board,MEX,Corporate,Suite,No Deposit,7,0,0.0,1,0,38.08,0
+9193,2023-08-05,2024-01-22,170,1,4,1,1.0,0,Half Board,CHL,Groups,Standard,Refundable,1,0,2.0,3,2,149.94,0
+1446,2022-05-05,2022-05-21,16,1,5,3,0.0,0,Self Catering,CHL,Corporate,Standard,No Deposit,27,0,1.0,2,3,108.84,0
+1381,2023-11-13,2023-12-04,21,2,4,2,,0,Bed & Breakfast,BGR,Offline,Standard,Refundable,5,0,,0,0,613.93,0
+8765,2022-10-05,2022-11-06,32,1,5,3,3.0,1,Bed & Breakfast,RUS,Online,Suite,No Deposit,27,0,0.0,4,2,86.35,0
+12052,2022-01-30,2022-02-20,21,2,3,3,1.0,0,Bed & Breakfast,BRA,Online,Standard,Refundable,8,0,0.0,1,2,52.15,0
+9458,2022-06-16,2022-07-24,38,1,0,1,2.0,0,Bed & Breakfast,CHE,Offline,Deluxe,No Deposit,33,1,0.0,0,2,150.91,0
+9761,2022-08-06,2022-08-27,21,2,4,2,3.0,0,Half Board,CHE,Corporate,Suite,No Deposit,33,0,0.0,3,2,49.64,0
+10289,2022-01-04,2023-03-23,443,0,2,2,1.0,0,Self Catering,CZE,Aviation,Standard,No Deposit,24,0,1.0,2,2,117.31,0
+1811,2023-03-05,2023-04-10,36,1,3,3,0.0,0,Bed & Breakfast,RUS,Groups,Standard,No Deposit,32,0,0.0,2,0,46.65,0
+7342,2023-12-12,2024-01-03,22,0,3,1,0.0,0,Half Board,THA,Groups,Standard,No Deposit,32,0,,1,3,95.15,0
+2009,2023-11-19,2023-12-08,19,2,4,1,,0,Bed & Breakfast,ITA,Online,Suite,No Deposit,41,0,3.0,0,2,77.38,0
+5720,2023-05-28,2023-12-20,206,1,3,1,0.0,0,Bed & Breakfast,CHN,Offline,Standard,Non Refund,41,0,0.0,3,3,80.65,1
+4960,2023-01-04,2023-05-14,130,0,3,1,0.0,0,Self Catering,THA,Online,Standard,No Deposit,32,0,,1,0,58.36,0
+3998,2022-05-03,2023-02-13,286,1,4,1,0.0,0,Half Board,IND,Groups,Deluxe,Non Refund,13,0,1.0,2,0,70.11,1

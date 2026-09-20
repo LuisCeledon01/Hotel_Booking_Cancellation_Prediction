@@ -1,0 +1,87 @@
+{
+ "n_reservas": 9696,
+ "tasa_global": 0.3708,
+ "por_deposito": [
+  {
+   "categoria": "No Deposit",
+   "tasa_cancelacion": 0.4478,
+   "reservas": 6735
+  },
+  {
+   "categoria": "Non Refund",
+   "tasa_cancelacion": 0.1492,
+   "reservas": 1977
+  },
+  {
+   "categoria": "Refundable",
+   "tasa_cancelacion": 0.2886,
+   "reservas": 984
+  }
+ ],
+ "por_canal": [
+  {
+   "categoria": "Aviation",
+   "tasa_cancelacion": 0.3362,
+   "reservas": 461
+  },
+  {
+   "categoria": "Corporate",
+   "tasa_cancelacion": 0.2974,
+   "reservas": 1913
+  },
+  {
+   "categoria": "Groups",
+   "tasa_cancelacion": 0.3055,
+   "reservas": 1447
+  },
+  {
+   "categoria": "Offline",
+   "tasa_cancelacion": 0.3393,
+   "reservas": 1509
+  },
+  {
+   "categoria": "Online",
+   "tasa_cancelacion": 0.4391,
+   "reservas": 4366
+  }
+ ],
+ "por_huesped_repetido": [
+  {
+   "categoria": "No",
+   "tasa_cancelacion": 0.3931,
+   "reservas": 8232
+  },
+  {
+   "categoria": "Sí",
+   "tasa_cancelacion": 0.2452,
+   "reservas": 1464
+  }
+ ],
+ "por_antelacion": [
+  {
+   "categoria": "0-7",
+   "tasa_cancelacion": 0.3075,
+   "reservas": 917
+  },
+  {
+   "categoria": "8-30",
+   "tasa_cancelacion": 0.2906,
+   "reservas": 2171
+  },
+  {
+   "categoria": "31-90",
+   "tasa_cancelacion": 0.3301,
+   "reservas": 3426
+  },
+  {
+   "categoria": "91-180",
+   "tasa_cancelacion": 0.4519,
+   "reservas": 2151
+  },
+  {
+   "categoria": "181+",
+   "tasa_cancelacion": 0.5616,
+   "reservas": 1031
+  }
+ ]
+}
